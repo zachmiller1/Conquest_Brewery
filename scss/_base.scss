@@ -1,0 +1,85 @@
+// =======================
+// Base
+// =======================
+
+
+// Box Sizing
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+// General
+body {
+    font-family: $bodytext;
+    color: $white;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1, h2, h3, a {
+	font-family: $headings;
+	color: $white;
+	text-transform: uppercase;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.875em;
+
+    &:hover {
+        color: $gold;
+    }
+}
+
+
+// Clearfix
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+
+// Visually Hidden
+.visually-hidden {
+	position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+//Hide Text
+.hide-text {
+	text-indent: -9999px;
+}
+
+
+// Container
+
+
+
+
+
+
+
+

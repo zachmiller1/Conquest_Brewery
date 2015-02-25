@@ -1,0 +1,19 @@
+// =======================
+// Google Maps
+// =======================
+
+.google-maps {
+	background: url('../img/google-map.jpg') no-repeat;
+	background-size: cover;
+	height: 200px;
+
+	.directions {
+		background: $black;
+		padding: 1em 3em;
+
+		p {
+			color: $white;
+			font-family: $headings;
+		}
+	}
+}

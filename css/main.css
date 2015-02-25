@@ -1,3 +1,138 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel|Cardo:400,400italic,700);
+*, *:before, *:after {
+  box-sizing: border-box; }
 
+body {
+  font-family: "Cardo", serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: center; }
+
+h1, h2, h3, a {
+  font-family: "Cinzel", serif;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0; }
+
+p {
+  margin: 0; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  font-size: 0.875em; }
+  a:hover {
+    color: #cfb672; }
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1;
+  /* ie 6/7 */ }
+
+.visually-hidden {
+  position: absolute;
+  top: -9999px;
+  left: -9999px; }
+
+.hide-text {
+  text-indent: -9999px; }
+
+.button {
+  border: 1px solid #cfb672;
+  background: #441414;
+  padding: 0.75em 0.875em;
+  display: block;
+  text-align: center;
+  width: 100%; }
+
+.social li {
+  display: inline; }
+.social .facebook {
+  background: url("../img/facebook.png") no-repeat;
+  background-image: url("../img/facebook.svg"), none;
+  height: 1.5em;
+  width: 1.5em; }
+.social .twitter {
+  background: url("../img/twitter.png") no-repeat;
+  background-image: url("../img/twitter.svg"), none;
+  height: 1.5em;
+  width: 1.5em; }
+.social a {
+  display: inline-block;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap; }
+
+.main-footer {
+  background: #222;
+  padding: 2.5em 0;
+  text-align: center; }
+  .main-footer .copyright {
+    color: #fff;
+    font-family: "Cinzel", serif;
+    font-size: 0.875em; }
+
+.google-maps {
+  background: url("../img/google-map.jpg") no-repeat;
+  background-size: cover;
+  height: 200px; }
+  .google-maps .directions {
+    background: #222;
+    padding: 1em 3em; }
+    .google-maps .directions p {
+      color: #fff;
+      font-family: "Cinzel", serif; }
+
+.main-header {
+  background: url("../img/hero-image.jpg") -125px 0 no-repeat;
+  background-size: cover;
+  min-height: 358px;
+  height: 100%; }
+  .main-header h2 {
+    font-size: 1.75em;
+    font-weight: thin; }
+  .main-header .main-nav {
+    display: none; }
+
+.catchphrase {
+  background: #441414;
+  padding: 1em 0; }
+  .catchphrase p {
+    margin: 0;
+    font-size: .875em;
+    color: #cfb672;
+    font-family: "Cinzel", serif;
+    text-transform: uppercase; }
+
+.beer {
+  background: linear-gradient(rgba(66, 66, 66, 0.85), rgba(66, 66, 66, 0.85)), url("../img/tap-handles.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 2em 0; }
+  .beer p {
+    margin-bottom: 1em; }
+  .beer .button {
+    margin-bottom: 2em; }
+  .beer img {
+    width: 60%;
+    margin-bottom: 0.75em;
+    -webkit-box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.8); }
+  .beer .beer-shield {
+    margin-bottom: 3em;
+    display: block; }
 
 /*# sourceMappingURL=main.css.map */

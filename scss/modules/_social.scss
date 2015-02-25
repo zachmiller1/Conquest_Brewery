@@ -1,0 +1,32 @@
+// =======================
+// Social
+// =======================
+
+.social {
+
+	
+	li {
+		display: inline;
+	}
+
+	.facebook {
+		background: url('../img/facebook.png') no-repeat;
+		background-image: url('../img/facebook.svg'), none;
+		height: 1.5em;
+		width: 1.5em;
+	}
+
+	.twitter {
+		background: url('../img/twitter.png') no-repeat;
+		background-image: url('../img/twitter.svg'), none;
+		height: 1.5em;
+		width: 1.5em;
+	}
+
+	a {
+		display: inline-block;
+		text-indent: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+}

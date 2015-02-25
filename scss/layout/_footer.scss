@@ -1,0 +1,15 @@
+// =======================
+// Footer
+// =======================
+
+.main-footer {
+	background: $black;
+	padding: 2.5em 0;
+	text-align: center;
+
+	.copyright {
+		color: $white;
+		font-family: $headings;
+		font-size: 0.875em;
+	}
+}

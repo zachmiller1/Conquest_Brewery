@@ -1,0 +1,36 @@
+// =======================
+// Beer
+// =======================
+
+.beer {
+	background:
+		linear-gradient(
+	      rgba(#424242, 0.85), 
+	      rgba(#424242, 0.85)
+	    ),
+	    url('../img/tap-handles.jpg') no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding: 2em 0;
+
+	p {
+		margin-bottom: 1em;
+	}
+
+	.button {
+		margin-bottom: 2em;
+	}
+
+	img {
+		width: 60%;
+		margin-bottom: 0.75em;
+		-webkit-box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.8);
+		-moz-box-shadow:    0px 7px 20px 0px rgba(0, 0, 0, 0.8);
+		box-shadow:         0px 7px 20px 0px rgba(0, 0, 0, 0.8);
+	}
+
+	.beer-shield {
+		margin-bottom: 3em;
+		display: block;
+	}
+}
