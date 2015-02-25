@@ -19,11 +19,15 @@ body {
     text-align: center;
 }
 
-h1, h2, h3, a {
+h1, h2, h3, a, input[type="submit"] {
 	font-family: $headings;
 	color: $white;
 	text-transform: uppercase;
   margin: 0;
+}
+
+h2, h3 {
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
