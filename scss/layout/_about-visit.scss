@@ -1,0 +1,32 @@
+// =======================
+// About / Visit Us
+// =======================
+.about-visit {
+	background:
+		linear-gradient(
+	      rgba($red, 0.85), 
+	      rgba($red, 0.85)
+	    ),
+	    url('../img/brewery-room.jpg') no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding: 2em 0;
+
+	h2 {
+		margin-bottom: 0.5em;
+	}
+
+	img {
+		max-width: 100%;
+		margin-bottom: 1em;
+		border: 2px solid $gold;
+	}
+
+	.column {
+		margin-bottom: 4em;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

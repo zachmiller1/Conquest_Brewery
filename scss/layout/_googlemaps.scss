@@ -6,10 +6,14 @@
 	background: url('../img/google-map.jpg') no-repeat;
 	background-size: cover;
 	height: 200px;
+	position: relative;
 
 	.directions {
 		background: $black;
 		padding: 1em 3em;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
 
 		p {
 			color: $white;
