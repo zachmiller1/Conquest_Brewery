@@ -5,19 +5,18 @@
 .google-maps {
 	background: url('../img/google-map.jpg') no-repeat;
 	background-size: cover;
-	height: 200px;
-	position: relative;
+	padding: 50px 0;
 
 	.directions {
 		background: $black;
-		padding: 1em 3em;
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
+		padding: 1em 2em;
+		max-width: 500px;
+		margin: 0 auto;
 
 		p {
 			color: $white;
 			font-family: $headings;
+			margin-bottom: 0.75em;
 		}
 	}
 }

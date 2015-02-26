@@ -3,18 +3,52 @@
 // =======================
 
 .main-header {
-	background: url('../img/hero-image.jpg') -125px 0 no-repeat;
+	background-image: url('../img/hero-image.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
 	background-size: cover;
-	min-height: 358px;
-	height: 100%;
+	padding-top: 1.45em;
 
-	h2 {
-		font-size: 1.75em;
-		font-weight: thin;
-		text-shadow: $gold 0 0 7px;
+	.logo-replace {
+		display: block;
+		text-indent: -9999px;
+		margin: 0 auto;
+		background: url('../img/conquest_logo.png') no-repeat;
+		background-size: cover;
+		height: 95px;
+		width: 40%;
+		position: absolute;
+		top: 0;
+		left: 91px;
 	}
 
-	.main-nav {
+	h2 {
+		font-size: 1.875em;
+		font-weight: thin;
+		text-shadow: $gold 0 0 7px;
+		padding: 3em 0;
+	}
+
+	nav {
+		background: rgba($red, 0.7);
+		box-shadow: $gold 0 0 5px;
+		padding: 0.75em 0;
+		position: relative;
+	}
+
+	.menu {
+		display: inline-block;
+		float: left;
+		font-size: 1em;
+	}
+
+	.social {
+		position: absolute;
+		top: 32px;
+		right: 5%;
+	}
+
+	.full-nav {
 		display: none;
 	}
 

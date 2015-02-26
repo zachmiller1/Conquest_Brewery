@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Cinzel|Cardo:400,400italic,700);
 *, *:before, *:after {
   box-sizing: border-box; }
 
@@ -9,6 +8,12 @@ body {
   font-size: 1em;
   line-height: 1.5;
   text-align: center; }
+  @media screen and (min-width: 600px) {
+    body {
+      font-size: 1.2em; } }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
 
 h1, h2, h3, a, input[type="submit"] {
   font-family: "Cinzel", serif;
@@ -69,40 +74,43 @@ a {
   margin: 0 auto; }
 
 .social li {
-  display: inline; }
-.social .facebook {
-  background: url("../img/facebook.png") no-repeat;
-  background-image: url("../img/facebook.svg"), none;
-  height: 1.5em;
-  width: 1.5em; }
-.social .twitter {
-  background: url("../img/twitter.png") no-repeat;
-  background-image: url("../img/twitter.svg"), none;
+  display: inline-block;
   height: 1.5em;
   width: 1.5em; }
 .social a {
-  display: inline-block;
-  text-indent: 100%;
-  overflow: hidden;
-  white-space: nowrap; }
-
-.subscribe input[type="text"] {
-  color: #222;
+  display: block;
   width: 100%;
-  text-align: center;
-  padding: 0.5em 0;
-  margin-bottom: 0.5em; }
-.subscribe input[type="submit"] {
-  border-right: 1px solid #cfb672;
-  border-top: 1px solid #cfb672;
-  border-bottom: 1px solid #cfb672;
-  border-left: 1px solid #cfb672;
-  background: #441414;
-  text-align: center;
-  width: 50%;
-  margin: 0 auto;
-  font-size: 0.875em;
-  padding: 0.75em 0; }
+  height: 100%;
+  text-indent: -100em; }
+  .social a.facebook {
+    background: url("../img/facebook.png") no-repeat;
+    background-image: url("../img/facebook.svg"), none;
+    background-size: 100% auto; }
+  .social a.twitter {
+    background: url("../img/twitter.png") no-repeat;
+    background-image: url("../img/twitter.svg"), none;
+    background-size: 100% auto; }
+
+.subscribe {
+  margin-bottom: 1em; }
+  .subscribe input[type="text"] {
+    color: #222;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0;
+    margin-bottom: 0.5em;
+    border: 1px solid #cfb672; }
+  .subscribe input[type="submit"] {
+    border-right: 1px solid #cfb672;
+    border-top: 1px solid #cfb672;
+    border-bottom: 1px solid #cfb672;
+    border-left: 1px solid #cfb672;
+    background: #441414;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 0.875em;
+    padding: 0.75em 0; }
 
 .main-footer {
   background: #222;
@@ -112,32 +120,59 @@ a {
     color: #fff;
     font-family: "Cinzel", serif;
     font-size: 0.875em; }
+  .main-footer .footer-right {
+    margin-bottom: 1em; }
 
 .google-maps {
   background: url("../img/google-map.jpg") no-repeat;
   background-size: cover;
-  height: 200px;
-  position: relative; }
+  padding: 50px 0; }
   .google-maps .directions {
     background: #222;
-    padding: 1em 3em;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%); }
+    padding: 1em 2em;
+    max-width: 500px;
+    margin: 0 auto; }
     .google-maps .directions p {
       color: #fff;
-      font-family: "Cinzel", serif; }
+      font-family: "Cinzel", serif;
+      margin-bottom: 0.75em; }
 
 .main-header {
-  background: url("../img/hero-image.jpg") -125px 0 no-repeat;
+  background-image: url("../img/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
-  min-height: 358px;
-  height: 100%; }
+  padding-top: 1.45em; }
+  .main-header .logo-replace {
+    display: block;
+    text-indent: -9999px;
+    margin: 0 auto;
+    background: url("../img/conquest_logo.png") no-repeat;
+    background-size: cover;
+    height: 95px;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 91px; }
   .main-header h2 {
-    font-size: 1.75em;
+    font-size: 1.875em;
     font-weight: thin;
-    text-shadow: #cfb672 0 0 7px; }
-  .main-header .main-nav {
+    text-shadow: #cfb672 0 0 7px;
+    padding: 3em 0; }
+  .main-header nav {
+    background: rgba(68, 20, 20, 0.7);
+    box-shadow: #cfb672 0 0 5px;
+    padding: 0.75em 0;
+    position: relative; }
+  .main-header .menu {
+    display: inline-block;
+    float: left;
+    font-size: 1em; }
+  .main-header .social {
+    position: absolute;
+    top: 32px;
+    right: 5%; }
+  .main-header .full-nav {
     display: none; }
 
 .catchphrase {
