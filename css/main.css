@@ -23,9 +23,15 @@ h2, h3 {
 
 h2 {
   font-size: 1.75em; }
+  @media screen and (min-width: 768px) {
+    h2 {
+      font-size: 2.5em; } }
 
 p {
   margin: 0; }
+  @media screen and (min-width: 768px) {
+    p {
+      font-size: 1.4em; } }
 
 ul {
   padding: 0;
@@ -34,6 +40,9 @@ ul {
 a {
   text-decoration: none;
   font-size: 0.875em; }
+  @media screen and (min-width: 768px) {
+    a {
+      font-size: 1em; } }
   a:hover {
     color: #cfb672; }
 
@@ -69,6 +78,9 @@ a {
   text-align: center;
   width: 80%;
   margin: 0 auto; }
+  @media screen and (min-width: 768px) {
+    .button {
+      width: 30%; } }
 
 .social li {
   display: inline-block;
@@ -97,6 +109,11 @@ a {
     padding: 0.5em 0;
     margin-bottom: 0.5em;
     border: 1px solid #cfb672; }
+    @media screen and (min-width: 768px) {
+      .subscribe input[type="text"] {
+        width: 50%;
+        padding-left: 0.75em;
+        text-align: left; } }
   .subscribe input[type="submit"] {
     border-right: 1px solid #cfb672;
     border-top: 1px solid #cfb672;
@@ -108,6 +125,9 @@ a {
     margin: 0 auto;
     font-size: 0.875em;
     padding: 0.75em 0; }
+    @media screen and (min-width: 768px) {
+      .subscribe input[type="submit"] {
+        width: 20%; } }
 
 .main-footer {
   background: #222;
@@ -117,6 +137,9 @@ a {
     color: #fff;
     font-family: "Cinzel", serif;
     font-size: 0.75em; }
+    @media screen and (min-width: 768px) {
+      .main-footer .copyright {
+        font-size: 0.875em; } }
   .main-footer .footer-right {
     margin-bottom: 1em; }
 
@@ -129,6 +152,9 @@ a {
     padding: 1em 2em;
     max-width: 500px;
     margin: 0 auto; }
+    @media screen and (min-width: 768px) {
+      .google-maps .directions .button {
+        width: 60%; } }
     .google-maps .directions p {
       color: #fff;
       font-family: "Cinzel", serif;
@@ -171,7 +197,8 @@ a {
     text-align: center; }
     @media screen and (min-width: 768px) {
       .main-header h2 {
-        font-size: 3.5em; } }
+        font-size: 3.8em;
+        padding: 2em 0; } }
   .main-header nav {
     background: rgba(68, 20, 20, 0.7);
     box-shadow: #cfb672 0 0 5px;

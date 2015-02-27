@@ -12,6 +12,12 @@
 		padding: 0.5em 0;
 		margin-bottom: 0.5em;
 		border: 1px solid $gold;
+
+		@media screen and (min-width: 768px) {
+	    	width: 50%;
+	    	padding-left: 0.75em;
+	    	text-align: left;
+	    }
 	}
 
 	input[type="submit"] {
@@ -25,5 +31,9 @@
 		margin: 0 auto;
 		font-size: 0.875em;
 		padding: 0.75em 0;
+
+		@media screen and (min-width: 768px) {
+	    	width: 20%;
+	    }
 	}
 }
