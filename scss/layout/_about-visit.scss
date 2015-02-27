@@ -20,10 +20,21 @@
 		max-width: 100%;
 		margin-bottom: 1em;
 		border: 2px solid $gold;
+
+		@media screen and (min-width: 1024px) {
+			max-width: 375px;
+			max-height: 230px;
+			min-height: 230px;
+		}
 	}
 
 	.column {
 		margin-bottom: 4em;
+
+		@media screen and (min-width: 1024px) {
+			float: left;
+			width: 50%;
+		}
 
 		&:last-child {
 			margin-bottom: 0;

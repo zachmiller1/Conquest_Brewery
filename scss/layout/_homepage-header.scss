@@ -32,6 +32,7 @@
 		background-size: contain;
 		height: 96px;
 		width: 147px;
+
 		@media screen and (min-width: 768px) {
 			height: 170px;
 			width: 220px;
@@ -44,9 +45,14 @@
 		text-shadow: $gold 0 0 7px;
 		padding: 3em 0;
 		text-align: center;
+
 		@media screen and (min-width: 768px) {
 			font-size: 3.8em;
 			padding: 2em 0;
+		}
+
+		@media screen and (min-width: 1024px) {
+			font-size: 4.5em;
 		}
 	}
 
@@ -77,6 +83,12 @@
 		z-index: 888;
 		@media screen and (min-width: 768px) {
 			top: 70px;
+			right: 10%;
+		}
+
+		@media screen and (min-width: 1024px) {
+			top: 12px;
+			right: 10%;
 		}
 	}
 

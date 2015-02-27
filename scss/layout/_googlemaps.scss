@@ -13,9 +13,17 @@
 		max-width: 500px;
 		margin: 0 auto;
 
+		@media screen and (min-width: 1024px) {
+      		padding: 1em 8em;
+    	}
+
 		.button {
 			@media screen and (min-width: 768px) {
       			width: 60%;
+    		}
+
+    		@media screen and (min-width: 1024px) {
+	      		width: 80%;
     		}
 		}
 
@@ -23,6 +31,10 @@
 			color: $white;
 			font-family: $headings;
 			margin-bottom: 0.75em;
+
+			@media screen and (min-width: 1024px) {
+	      		font-size: 1.125em;
+    		}
 		}
 	}
 }

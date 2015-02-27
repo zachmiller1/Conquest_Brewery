@@ -2,8 +2,19 @@
 // Newsletter Sign up
 // =======================
 
+form.subscribe {
+	@media screen and (min-width: 1024px) {
+		margin-bottom: 0;   
+	}
+ }
+
 .subscribe {
 	margin-bottom: 1em;
+
+	@media screen and (min-width: 1024px) {
+   		display: inline-block;
+   		width: 80%;   
+   	}
 
 	input[type="text"] {
 		color: $black;
@@ -18,6 +29,11 @@
 	    	padding-left: 0.75em;
 	    	text-align: left;
 	    }
+
+	    @media screen and (min-width: 1024px) {
+      		width: 60%;
+      		font-size: 0.875em;
+    	}
 	}
 
 	input[type="submit"] {
@@ -35,5 +51,10 @@
 		@media screen and (min-width: 768px) {
 	    	width: 20%;
 	    }
+
+	    @media screen and (min-width: 1024px) {
+      		width: 30%;
+      		font-size: 0.75em;
+    	}
 	}
 }
