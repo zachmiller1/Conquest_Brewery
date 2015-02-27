@@ -8,25 +8,45 @@
 	background-position: center center;
 	background-size: cover;
 	padding-top: 1.45em;
+	text-align: left;
+
+	@media screen and (min-width: 768px) {
+			padding-top: 3.15em;
+		}
+
+	.main-logo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
+
+	}
 
 	.logo-replace {
 		display: block;
 		text-indent: -9999px;
 		margin: 0 auto;
 		background: url('../img/conquest_logo.png') no-repeat;
-		background-size: cover;
-		height: 95px;
-		width: 40%;
-		position: absolute;
-		top: 0;
-		left: 91px;
+		background-position: center center;
+		background-size: contain;
+		height: 96px;
+		width: 147px;
+		@media screen and (min-width: 768px) {
+			height: 170px;
+			width: 220px;
+		}
 	}
 
 	h2 {
 		font-size: 1.875em;
-		font-weight: thin;
+		font-weight: 300;
 		text-shadow: $gold 0 0 7px;
 		padding: 3em 0;
+		text-align: center;
+		@media screen and (min-width: 768px) {
+			font-size: 3.5em;
+		}
 	}
 
 	nav {
@@ -34,18 +54,29 @@
 		box-shadow: $gold 0 0 5px;
 		padding: 0.75em 0;
 		position: relative;
+		@media screen and (min-width: 768px) {
+			padding: 1em 0;
+		}
 	}
 
 	.menu {
 		display: inline-block;
-		float: left;
 		font-size: 1em;
+		z-index: 7;
+		position: relative;
+		@media screen and (min-width: 768px) {
+			font-size: 1.5em;
+		}
 	}
 
 	.social {
 		position: absolute;
 		top: 32px;
 		right: 5%;
+		z-index: 888;
+		@media screen and (min-width: 768px) {
+			top: 70px;
+		}
 	}
 
 	.full-nav {

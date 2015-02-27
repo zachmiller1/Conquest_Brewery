@@ -8,9 +8,6 @@ body {
   font-size: 1em;
   line-height: 1.5;
   text-align: center; }
-  @media screen and (min-width: 600px) {
-    body {
-      font-size: 1.2em; } }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
@@ -25,7 +22,7 @@ h2, h3 {
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5); }
 
 h2 {
-  font-size: 2em; }
+  font-size: 1.75em; }
 
 p {
   margin: 0; }
@@ -119,7 +116,7 @@ a {
   .main-footer .copyright {
     color: #fff;
     font-family: "Cinzel", serif;
-    font-size: 0.875em; }
+    font-size: 0.75em; }
   .main-footer .footer-right {
     margin-bottom: 1em; }
 
@@ -142,36 +139,63 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 1.45em; }
+  padding-top: 1.45em;
+  text-align: left; }
+  @media screen and (min-width: 768px) {
+    .main-header {
+      padding-top: 3.15em; } }
+  .main-header .main-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; }
   .main-header .logo-replace {
     display: block;
     text-indent: -9999px;
     margin: 0 auto;
     background: url("../img/conquest_logo.png") no-repeat;
-    background-size: cover;
-    height: 95px;
-    width: 40%;
-    position: absolute;
-    top: 0;
-    left: 91px; }
+    background-position: center center;
+    background-size: contain;
+    height: 96px;
+    width: 147px; }
+    @media screen and (min-width: 768px) {
+      .main-header .logo-replace {
+        height: 170px;
+        width: 220px; } }
   .main-header h2 {
     font-size: 1.875em;
-    font-weight: thin;
+    font-weight: 300;
     text-shadow: #cfb672 0 0 7px;
-    padding: 3em 0; }
+    padding: 3em 0;
+    text-align: center; }
+    @media screen and (min-width: 768px) {
+      .main-header h2 {
+        font-size: 3.5em; } }
   .main-header nav {
     background: rgba(68, 20, 20, 0.7);
     box-shadow: #cfb672 0 0 5px;
     padding: 0.75em 0;
     position: relative; }
+    @media screen and (min-width: 768px) {
+      .main-header nav {
+        padding: 1em 0; } }
   .main-header .menu {
     display: inline-block;
-    float: left;
-    font-size: 1em; }
+    font-size: 1em;
+    z-index: 7;
+    position: relative; }
+    @media screen and (min-width: 768px) {
+      .main-header .menu {
+        font-size: 1.5em; } }
   .main-header .social {
     position: absolute;
     top: 32px;
-    right: 5%; }
+    right: 5%;
+    z-index: 888; }
+    @media screen and (min-width: 768px) {
+      .main-header .social {
+        top: 70px; } }
   .main-header .full-nav {
     display: none; }
 
@@ -180,10 +204,13 @@ a {
   padding: 1em 0; }
   .catchphrase p {
     margin: 0;
-    font-size: .875em;
+    font-size: 0.875em;
     color: #cfb672;
     font-family: "Cinzel", serif;
     text-transform: uppercase; }
+    @media screen and (min-width: 768px) {
+      .catchphrase p {
+        font-size: 1.25em; } }
 
 .beer {
   background: linear-gradient(rgba(66, 66, 66, 0.85), rgba(66, 66, 66, 0.85)), url("../img/tap-handles.jpg") no-repeat;
@@ -232,7 +259,9 @@ a {
   .upcoming .event {
     margin-bottom: 2em; }
     .upcoming .event p {
-      font-size: 0.75em;
+      font-size: 0.875em;
       margin-bottom: 0.75em; }
+      .upcoming .event p:first-child {
+        margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */
