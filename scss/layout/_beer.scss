@@ -2,3 +2,101 @@
 // Beer
 // =======================
 
+// Internal Nav
+.internal-nav {
+	background: #424242;
+
+	ul {
+		list-style: none;
+	}
+
+	li {
+		padding: 0.5em 0;
+		border-bottom: 1px solid $gold;
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+}
+
+
+
+// Availibility Banners
+
+.banner {
+	background: $black;
+	padding: 1em 0;
+
+	h2 {
+		color: $gold;
+	}
+}
+
+
+
+// Beer Details 
+
+.beer-details {
+	padding: 4em 0;
+
+	h3 {
+		color: lighten($red, 30%);
+		font-size: 2em;
+		text-shadow: 0.5px 0.5px 0px rgba($gold, 0.5);
+		margin-bottom: 0.25em;
+	}
+}
+
+.beer-desc {
+	p {
+		margin-bottom: 1em;
+	}
+}
+
+.sacred {
+	background:
+	linear-gradient(
+      rgba($black, 0.50), 
+      rgba($black, 0.50)
+    ),
+    url('../img/sacred-heart.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+}
+
+.vitals {
+	padding: 1em;
+	border: 1px solid $gold;
+	margin-top: 2em;
+	text-align: left;
+
+	h4 {
+		font-family: $headings;
+		color: lighten($red, 30%);
+		text-shadow: 0.5px 0.5px 0px rgba($gold, 0.5);
+		margin: 0 0 0.75em;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	p {
+		font-size: 0.875em;
+		margin-bottom: 0.5em;
+	}
+
+	.bold {
+		color: $gold;
+		font-weight: 700;
+	}
+}
+
+
+
+
+
+
+
+
+

@@ -340,6 +340,58 @@ a {
       .catchphrase p {
         font-size: 1.5em; } }
 
+.internal-nav {
+  background: #424242; }
+  .internal-nav ul {
+    list-style: none; }
+  .internal-nav li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #cfb672; }
+    .internal-nav li:last-child {
+      border-bottom: none; }
+
+.banner {
+  background: #222;
+  padding: 1em 0; }
+  .banner h2 {
+    color: #cfb672; }
+
+.beer-details {
+  padding: 4em 0; }
+  .beer-details h3 {
+    color: #ba3737;
+    font-size: 2em;
+    text-shadow: 0.5px 0.5px 0px rgba(207, 182, 114, 0.5);
+    margin-bottom: 0.25em; }
+
+.beer-desc p {
+  margin-bottom: 1em; }
+
+.sacred {
+  background: linear-gradient(rgba(34, 34, 34, 0.5), rgba(34, 34, 34, 0.5)), url("../img/sacred-heart.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+
+.vitals {
+  padding: 1em;
+  border: 1px solid #cfb672;
+  margin-top: 2em;
+  text-align: left; }
+  .vitals h4 {
+    font-family: "Cinzel", serif;
+    color: #ba3737;
+    text-shadow: 0.5px 0.5px 0px rgba(207, 182, 114, 0.5);
+    margin: 0 0 0.75em;
+    font-size: 1.5em;
+    text-align: center; }
+  .vitals p {
+    font-size: 0.875em;
+    margin-bottom: 0.5em; }
+  .vitals .bold {
+    color: #cfb672;
+    font-weight: 700; }
+
 .about-visit {
   background: linear-gradient(rgba(68, 20, 20, 0.85), rgba(68, 20, 20, 0.85)), url("../img/brewery-room.jpg") no-repeat;
   background-size: cover;
@@ -395,5 +447,57 @@ a {
       margin-bottom: 0.75em; }
       .upcoming .event p:first-child {
         margin-bottom: 0; }
+
+.internal-nav {
+  background: #424242; }
+  .internal-nav ul {
+    list-style: none; }
+  .internal-nav li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #cfb672; }
+    .internal-nav li:last-child {
+      border-bottom: none; }
+
+.banner {
+  background: #222;
+  padding: 1em 0; }
+  .banner h2 {
+    color: #cfb672; }
+
+.beer-details {
+  padding: 4em 0; }
+  .beer-details h3 {
+    color: #ba3737;
+    font-size: 2em;
+    text-shadow: 0.5px 0.5px 0px rgba(207, 182, 114, 0.5);
+    margin-bottom: 0.25em; }
+
+.beer-desc p {
+  margin-bottom: 1em; }
+
+.sacred {
+  background: linear-gradient(rgba(34, 34, 34, 0.5), rgba(34, 34, 34, 0.5)), url("../img/sacred-heart.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+
+.vitals {
+  padding: 1em;
+  border: 1px solid #cfb672;
+  margin-top: 2em;
+  text-align: left; }
+  .vitals h4 {
+    font-family: "Cinzel", serif;
+    color: #ba3737;
+    text-shadow: 0.5px 0.5px 0px rgba(207, 182, 114, 0.5);
+    margin: 0 0 0.75em;
+    font-size: 1.5em;
+    text-align: center; }
+  .vitals p {
+    font-size: 0.875em;
+    margin-bottom: 0.5em; }
+  .vitals .bold {
+    color: #cfb672;
+    font-weight: 700; }
 
 /*# sourceMappingURL=main.css.map */
