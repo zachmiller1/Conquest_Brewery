@@ -344,11 +344,25 @@ a {
   background: #424242; }
   .internal-nav ul {
     list-style: none; }
+    @media screen and (min-width: 768px) {
+      .internal-nav ul {
+        text-align: center; } }
   .internal-nav li {
     padding: 0.5em 0;
     border-bottom: 1px solid #cfb672; }
     .internal-nav li:last-child {
       border-bottom: none; }
+    @media screen and (min-width: 768px) {
+      .internal-nav li {
+        border: none;
+        display: inline-block;
+        padding: 1em 0;
+        padding-right: 5em; }
+        .internal-nav li:last-child {
+          padding-right: 0; } }
+  @media screen and (min-width: 768px) {
+    .internal-nav a {
+      font-size: 1.25em; } }
 
 .banner {
   background: #222;
@@ -358,6 +372,9 @@ a {
   .banner h2 {
     color: #cfb672;
     font-size: 1.5em; }
+    @media screen and (min-width: 768px) {
+      .banner h2 {
+        font-size: 2.5em; } }
 
 .beer-details {
   padding: 4em 0;
@@ -369,6 +386,9 @@ a {
     font-size: 1.625em;
     text-shadow: 0.5px 0.5px 0px rgba(207, 182, 114, 0.5);
     margin-bottom: 0.25em; }
+    @media screen and (min-width: 768px) {
+      .beer-details h3 {
+        font-size: 2.75em; } }
 
 .beer-desc p {
   margin-bottom: 1em; }
@@ -408,6 +428,12 @@ a {
   border: 1px solid #cfb672;
   margin-top: 2em;
   text-align: left; }
+  @media screen and (min-width: 768px) {
+    .vitals {
+      padding: 1em 2em;
+      width: 60%;
+      margin-right: auto;
+      margin-left: auto; } }
   .vitals h4 {
     font-family: "Cinzel", serif;
     color: #ba3737;
@@ -415,9 +441,17 @@ a {
     margin: 0 0 0.75em;
     font-size: 1.5em;
     text-align: center; }
+    @media screen and (min-width: 768px) {
+      .vitals h4 {
+        font-size: 2em;
+        margin-bottom: 0.25em; } }
   .vitals p {
     font-size: 0.875em;
     margin-bottom: 0.5em; }
+    @media screen and (min-width: 768px) {
+      .vitals p {
+        font-size: 1.25em;
+        margin-bottom: 0.625em; } }
   .vitals .bold {
     color: #cfb672;
     font-weight: 700; }
@@ -482,11 +516,25 @@ a {
   background: #424242; }
   .internal-nav ul {
     list-style: none; }
+    @media screen and (min-width: 768px) {
+      .internal-nav ul {
+        text-align: center; } }
   .internal-nav li {
     padding: 0.5em 0;
     border-bottom: 1px solid #cfb672; }
     .internal-nav li:last-child {
       border-bottom: none; }
+    @media screen and (min-width: 768px) {
+      .internal-nav li {
+        border: none;
+        display: inline-block;
+        padding: 1em 0;
+        padding-right: 5em; }
+        .internal-nav li:last-child {
+          padding-right: 0; } }
+  @media screen and (min-width: 768px) {
+    .internal-nav a {
+      font-size: 1.25em; } }
 
 .banner {
   background: #222;
@@ -496,6 +544,9 @@ a {
   .banner h2 {
     color: #cfb672;
     font-size: 1.5em; }
+    @media screen and (min-width: 768px) {
+      .banner h2 {
+        font-size: 2.5em; } }
 
 .beer-details {
   padding: 4em 0;
@@ -507,6 +558,9 @@ a {
     font-size: 1.625em;
     text-shadow: 0.5px 0.5px 0px rgba(207, 182, 114, 0.5);
     margin-bottom: 0.25em; }
+    @media screen and (min-width: 768px) {
+      .beer-details h3 {
+        font-size: 2.75em; } }
 
 .beer-desc p {
   margin-bottom: 1em; }
@@ -546,6 +600,12 @@ a {
   border: 1px solid #cfb672;
   margin-top: 2em;
   text-align: left; }
+  @media screen and (min-width: 768px) {
+    .vitals {
+      padding: 1em 2em;
+      width: 60%;
+      margin-right: auto;
+      margin-left: auto; } }
   .vitals h4 {
     font-family: "Cinzel", serif;
     color: #ba3737;
@@ -553,9 +613,17 @@ a {
     margin: 0 0 0.75em;
     font-size: 1.5em;
     text-align: center; }
+    @media screen and (min-width: 768px) {
+      .vitals h4 {
+        font-size: 2em;
+        margin-bottom: 0.25em; } }
   .vitals p {
     font-size: 0.875em;
     margin-bottom: 0.5em; }
+    @media screen and (min-width: 768px) {
+      .vitals p {
+        font-size: 1.25em;
+        margin-bottom: 0.625em; } }
   .vitals .bold {
     color: #cfb672;
     font-weight: 700; }
