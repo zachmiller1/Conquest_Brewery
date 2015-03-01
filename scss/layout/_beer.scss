@@ -17,6 +17,10 @@
 		&:last-child {
 			border-bottom: none;
 		}
+
+		@media screen and (min-width: 768px) {
+			
+		}
 	}
 }
 
@@ -27,9 +31,12 @@
 .banner {
 	background: $black;
 	padding: 1em 0;
+	border-top: 1px solid $gold;
+	border-bottom: 1px solid $gold;
 
 	h2 {
 		color: $gold;
+		font-size: 1.5em;
 	}
 }
 
@@ -39,10 +46,14 @@
 
 .beer-details {
 	padding: 4em 0;
+	border-bottom: 1px solid $gold;
+	&:last-child {
+		border-bottom: none;
+	}
 
 	h3 {
 		color: lighten($red, 30%);
-		font-size: 2em;
+		font-size: 1.625em;
 		text-shadow: 0.5px 0.5px 0px rgba($gold, 0.5);
 		margin-bottom: 0.25em;
 	}
@@ -57,10 +68,58 @@
 .sacred {
 	background:
 	linear-gradient(
-      rgba($black, 0.50), 
-      rgba($black, 0.50)
+      rgba($black, 0.7), 
+      rgba($black, 0.7)
     ),
     url('../img/sacred-heart.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+}
+
+.artemis {
+	background:
+	linear-gradient(
+      rgba($black, 0.7), 
+      rgba($black, 0.7)
+    ),
+    url('../img/artemis.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+}
+
+.warrior {
+	background:
+	linear-gradient(
+      rgba($black, 0.7), 
+      rgba($black, 0.7)
+    ),
+    url('../img/warrior.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+}
+
+.medusa {
+	background:
+	linear-gradient(
+      rgba($black, 0.7), 
+      rgba($black, 0.7)
+    ),
+    url('../img/medusa.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+}
+
+.finisher {
+	background:
+	linear-gradient(
+      rgba($black, 0.7), 
+      rgba($black, 0.7)
+    ),
+    url('../img/finisher.jpg') no-repeat;
 	background-size: cover;
 	background-position: center center;
 	height: 100%;

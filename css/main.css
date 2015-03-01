@@ -352,15 +352,21 @@ a {
 
 .banner {
   background: #222;
-  padding: 1em 0; }
+  padding: 1em 0;
+  border-top: 1px solid #cfb672;
+  border-bottom: 1px solid #cfb672; }
   .banner h2 {
-    color: #cfb672; }
+    color: #cfb672;
+    font-size: 1.5em; }
 
 .beer-details {
-  padding: 4em 0; }
+  padding: 4em 0;
+  border-bottom: 1px solid #cfb672; }
+  .beer-details:last-child {
+    border-bottom: none; }
   .beer-details h3 {
     color: #ba3737;
-    font-size: 2em;
+    font-size: 1.625em;
     text-shadow: 0.5px 0.5px 0px rgba(207, 182, 114, 0.5);
     margin-bottom: 0.25em; }
 
@@ -368,7 +374,31 @@ a {
   margin-bottom: 1em; }
 
 .sacred {
-  background: linear-gradient(rgba(34, 34, 34, 0.5), rgba(34, 34, 34, 0.5)), url("../img/sacred-heart.jpg") no-repeat;
+  background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url("../img/sacred-heart.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+
+.artemis {
+  background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url("../img/artemis.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+
+.warrior {
+  background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url("../img/warrior.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+
+.medusa {
+  background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url("../img/medusa.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+
+.finisher {
+  background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url("../img/finisher.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
   height: 100%; }
@@ -460,15 +490,21 @@ a {
 
 .banner {
   background: #222;
-  padding: 1em 0; }
+  padding: 1em 0;
+  border-top: 1px solid #cfb672;
+  border-bottom: 1px solid #cfb672; }
   .banner h2 {
-    color: #cfb672; }
+    color: #cfb672;
+    font-size: 1.5em; }
 
 .beer-details {
-  padding: 4em 0; }
+  padding: 4em 0;
+  border-bottom: 1px solid #cfb672; }
+  .beer-details:last-child {
+    border-bottom: none; }
   .beer-details h3 {
     color: #ba3737;
-    font-size: 2em;
+    font-size: 1.625em;
     text-shadow: 0.5px 0.5px 0px rgba(207, 182, 114, 0.5);
     margin-bottom: 0.25em; }
 
@@ -476,7 +512,31 @@ a {
   margin-bottom: 1em; }
 
 .sacred {
-  background: linear-gradient(rgba(34, 34, 34, 0.5), rgba(34, 34, 34, 0.5)), url("../img/sacred-heart.jpg") no-repeat;
+  background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url("../img/sacred-heart.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+
+.artemis {
+  background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url("../img/artemis.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+
+.warrior {
+  background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url("../img/warrior.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+
+.medusa {
+  background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url("../img/medusa.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; }
+
+.finisher {
+  background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url("../img/finisher.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
   height: 100%; }
