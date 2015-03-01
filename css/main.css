@@ -340,6 +340,24 @@ a {
       .catchphrase p {
         font-size: 1.5em; } }
 
+.beer-page {
+  background-image: url("../img/beer-hero-image.jpg"); }
+  @media screen and (min-width: 768px) {
+    .beer-page {
+      min-height: 400px;
+      max-height: 400px; } }
+  .beer-page h2 {
+    padding: 1.5em;
+    font-size: 2.275em; }
+    @media screen and (min-width: 768px) {
+      .beer-page h2 {
+        padding: 2em;
+        font-size: 3.5em; } }
+    @media screen and (min-width: 1024px) {
+      .beer-page h2 {
+        padding: 1.7em;
+        font-size: 4em; } }
+
 .internal-nav {
   background: #424242; }
   .internal-nav ul {
@@ -390,8 +408,16 @@ a {
       .beer-details h3 {
         font-size: 2.75em; } }
 
+@media screen and (min-width: 1024px) {
+  .beer-desc {
+    text-align: left;
+    float: left;
+    width: 60%; } }
 .beer-desc p {
   margin-bottom: 1em; }
+  @media screen and (min-width: 1024px) {
+    .beer-desc p {
+      line-height: 1.8; } }
 
 .sacred {
   background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url("../img/sacred-heart.jpg") no-repeat;
@@ -434,6 +460,11 @@ a {
       width: 60%;
       margin-right: auto;
       margin-left: auto; } }
+  @media screen and (min-width: 1024px) {
+    .vitals {
+      float: right;
+      width: 31%;
+      margin-top: 0; } }
   .vitals h4 {
     font-family: "Cinzel", serif;
     color: #ba3737;
@@ -452,6 +483,10 @@ a {
       .vitals p {
         font-size: 1.25em;
         margin-bottom: 0.625em; } }
+    @media screen and (min-width: 768px) {
+      .vitals p {
+        margin-bottom: 0.25em;
+        font-size: 1em; } }
   .vitals .bold {
     color: #cfb672;
     font-weight: 700; }
@@ -512,6 +547,24 @@ a {
       .upcoming .event p:first-child {
         margin-bottom: 0; }
 
+.beer-page {
+  background-image: url("../img/beer-hero-image.jpg"); }
+  @media screen and (min-width: 768px) {
+    .beer-page {
+      min-height: 400px;
+      max-height: 400px; } }
+  .beer-page h2 {
+    padding: 1.5em;
+    font-size: 2.275em; }
+    @media screen and (min-width: 768px) {
+      .beer-page h2 {
+        padding: 2em;
+        font-size: 3.5em; } }
+    @media screen and (min-width: 1024px) {
+      .beer-page h2 {
+        padding: 1.7em;
+        font-size: 4em; } }
+
 .internal-nav {
   background: #424242; }
   .internal-nav ul {
@@ -562,8 +615,16 @@ a {
       .beer-details h3 {
         font-size: 2.75em; } }
 
+@media screen and (min-width: 1024px) {
+  .beer-desc {
+    text-align: left;
+    float: left;
+    width: 60%; } }
 .beer-desc p {
   margin-bottom: 1em; }
+  @media screen and (min-width: 1024px) {
+    .beer-desc p {
+      line-height: 1.8; } }
 
 .sacred {
   background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url("../img/sacred-heart.jpg") no-repeat;
@@ -606,6 +667,11 @@ a {
       width: 60%;
       margin-right: auto;
       margin-left: auto; } }
+  @media screen and (min-width: 1024px) {
+    .vitals {
+      float: right;
+      width: 31%;
+      margin-top: 0; } }
   .vitals h4 {
     font-family: "Cinzel", serif;
     color: #ba3737;
@@ -624,6 +690,10 @@ a {
       .vitals p {
         font-size: 1.25em;
         margin-bottom: 0.625em; } }
+    @media screen and (min-width: 768px) {
+      .vitals p {
+        margin-bottom: 0.25em;
+        font-size: 1em; } }
   .vitals .bold {
     color: #cfb672;
     font-weight: 700; }

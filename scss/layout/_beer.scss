@@ -2,6 +2,38 @@
 // Beer
 // =======================
 
+
+// Beer Page Header
+
+.beer-page {
+	background-image: url('../img/beer-hero-image.jpg');
+
+	@media screen and (min-width: 768px) {
+		min-height: 400px;
+		max-height: 400px;
+	}
+	
+
+	h2 {
+		padding: 1.5em;
+		font-size: 2.275em;
+
+		@media screen and (min-width: 768px) {
+			padding: 2em;
+			font-size: 3.5em;
+		}
+
+		@media screen and (min-width: 1024px) {
+			padding: 1.7em;
+			font-size: 4em;
+		}
+	}
+}
+
+
+
+
+
 // Internal Nav
 .internal-nav {
 	background: #424242;
@@ -97,8 +129,20 @@
 }
 
 .beer-desc {
+
+
+	@media screen and (min-width: 1024px) {
+		text-align: left;
+		float: left;
+		width: 60%;
+	}
+
 	p {
 		margin-bottom: 1em;
+
+		@media screen and (min-width: 1024px) {
+			line-height: 1.8;
+		}
 	}
 }
 
@@ -175,6 +219,12 @@
 		margin-left: auto;
 	}
 
+	@media screen and (min-width: 1024px) {
+		float: right;
+		width: 31%;
+		margin-top: 0;
+	}
+
 	h4 {
 		font-family: $headings;
 		color: lighten($red, 30%);
@@ -196,6 +246,11 @@
 		@media screen and (min-width: 768px) {
 			font-size: 1.25em;
 			margin-bottom: 0.625em;
+		}
+
+		@media screen and (min-width: 768px) {
+			margin-bottom: 0.25em;
+			font-size: 1em;
 		}
 	}
 
