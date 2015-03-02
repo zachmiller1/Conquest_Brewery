@@ -698,4 +698,101 @@ a {
     color: #cfb672;
     font-weight: 700; }
 
+.details-page {
+  background: linear-gradient(rgba(34, 34, 34, 0.5), rgba(34, 34, 34, 0.5)), url("../img/sacred-heart.jpg");
+  background-size: cover;
+  background-position: center center; }
+  @media screen and (min-width: 768px) {
+    .details-page {
+      min-height: 400px;
+      max-height: 400px; } }
+  .details-page h2 {
+    padding: 1.5em;
+    font-size: 2.275em; }
+    @media screen and (min-width: 768px) {
+      .details-page h2 {
+        padding: 1.8em 0;
+        font-size: 3.5em; } }
+    @media screen and (min-width: 1024px) {
+      .details-page h2 {
+        padding: 1.7em;
+        font-size: 4em; } }
+
+.full-details {
+  padding: 3em 0;
+  color: #222;
+  background: linear-gradient(rgba(86, 78, 33, 0.5), rgba(86, 78, 33, 0.5)), url("../img/ricepaper2.png"); }
+  .full-details .beer-stats {
+    margin-bottom: 2em; }
+    @media screen and (min-width: 768px) {
+      .full-details .beer-stats {
+        margin-bottom: 2.5em; } }
+  @media screen and (min-width: 768px) {
+    .full-details .beer-bottle {
+      float: left;
+      width: 23%; } }
+  @media screen and (min-width: 768px) {
+    .full-details .vitals-social {
+      float: right;
+      width: 70%; } }
+  .full-details .ratings {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    max-height: 50px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 0.875em; }
+  .full-details .ratebeer {
+    background-image: url("../img/ratebeer.gif"); }
+  .full-details .beeradvocate {
+    background-image: url("../img/beeradvocate.gif"); }
+  .full-details .vitals {
+    margin-top: 0;
+    border: 2px solid #ccc;
+    background: #222;
+    margin-bottom: 0.875em; }
+    @media screen and (min-width: 768px) {
+      .full-details .vitals {
+        width: 100%; } }
+    .full-details .vitals h4 {
+      background: #441414;
+      border: 1px solid #ccc;
+      color: #cfb672;
+      text-shadow: 0.5px 0.5px #222; }
+    .full-details .vitals p {
+      color: #fff; }
+  .full-details .share-button {
+    display: block;
+    min-height: 50px;
+    max-height: 50px;
+    color: #fff;
+    padding: 1em;
+    margin-bottom: 0.875em; }
+  .full-details .facebook {
+    background: #2c5a9e; }
+  .full-details .twitter {
+    background: #3e86f1; }
+  .full-details .beer-description .quote {
+    font-family: "Cinzel", serif;
+    font-size: 1.25em;
+    margin-bottom: 1em; }
+    @media screen and (min-width: 768px) {
+      .full-details .beer-description .quote {
+        font-size: 1.75em; } }
+  .full-details .beer-description p {
+    margin-bottom: 1em; }
+  .full-details .beer-description .detail-button {
+    display: block;
+    min-height: 50px;
+    max-height: 50px;
+    color: #fff;
+    padding: 1em;
+    margin-bottom: 0.875em; }
+  .full-details .beer-description .back {
+    background: #777; }
+  .full-details .beer-description .buy {
+    background: #441414; }
+
 /*# sourceMappingURL=main.css.map */
