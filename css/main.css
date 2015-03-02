@@ -707,7 +707,7 @@ a {
       min-height: 400px;
       max-height: 400px; } }
   .details-page h2 {
-    padding: 1.5em;
+    padding: 1.5em 0;
     font-size: 2.275em; }
     @media screen and (min-width: 768px) {
       .details-page h2 {
@@ -715,7 +715,7 @@ a {
         font-size: 3.5em; } }
     @media screen and (min-width: 1024px) {
       .details-page h2 {
-        padding: 1.7em;
+        padding: 1.7em 0;
         font-size: 4em; } }
 
 .full-details {
@@ -727,14 +727,28 @@ a {
     @media screen and (min-width: 768px) {
       .full-details .beer-stats {
         margin-bottom: 2.5em; } }
-  @media screen and (min-width: 768px) {
-    .full-details .beer-bottle {
-      float: left;
-      width: 23%; } }
+    @media screen and (min-width: 1024px) {
+      .full-details .beer-stats {
+        float: left;
+        width: 40%;
+        margin-bottom: 0; } }
+  .full-details .beer-bottle {
+    width: 40%; }
+    @media screen and (min-width: 768px) {
+      .full-details .beer-bottle {
+        float: left;
+        width: 23%; } }
+    @media screen and (min-width: 1024px) {
+      .full-details .beer-bottle {
+        width: 32%; } }
   @media screen and (min-width: 768px) {
     .full-details .vitals-social {
       float: right;
       width: 70%; } }
+  @media screen and (min-width: 1024px) {
+    .full-details .vitals-social {
+      width: 66%;
+      margin-bottom: 1em; } }
   .full-details .ratings {
     display: block;
     width: 100%;
@@ -756,13 +770,31 @@ a {
     @media screen and (min-width: 768px) {
       .full-details .vitals {
         width: 100%; } }
+    @media screen and (min-width: 1024px) {
+      .full-details .vitals {
+        margin-bottom: 0.275em; } }
     .full-details .vitals h4 {
       background: #441414;
       border: 1px solid #ccc;
       color: #cfb672;
       text-shadow: 0.5px 0.5px #222; }
+      @media screen and (min-width: 1024px) {
+        .full-details .vitals h4 {
+          font-size: 1.25em; } }
     .full-details .vitals p {
       color: #fff; }
+      @media screen and (min-width: 1024px) {
+        .full-details .vitals p {
+          font-size: 0.75em;
+          margin-bottom: 0.75em; }
+          .full-details .vitals p:last-child {
+            margin-bottom: 0; } }
+  @media screen and (min-width: 768px) {
+    .full-details .share {
+      width: 107%; } }
+  @media screen and (min-width: 1024px) {
+    .full-details .share {
+      clear: both; } }
   .full-details .share-button {
     display: block;
     min-height: 50px;
@@ -770,10 +802,24 @@ a {
     color: #fff;
     padding: 1em;
     margin-bottom: 0.875em; }
+    @media screen and (min-width: 768px) {
+      .full-details .share-button {
+        width: 31%;
+        display: inline-block;
+        padding: 0.825em; } }
+    @media screen and (min-width: 1024px) {
+      .full-details .share-button {
+        width: 49%;
+        display: inline-block;
+        padding: 0.875em; } }
   .full-details .facebook {
     background: #2c5a9e; }
   .full-details .twitter {
     background: #3e86f1; }
+  @media screen and (min-width: 1024px) {
+    .full-details .beer-description {
+      float: right;
+      width: 51%; } }
   .full-details .beer-description .quote {
     font-family: "Cinzel", serif;
     font-size: 1.25em;
@@ -781,8 +827,14 @@ a {
     @media screen and (min-width: 768px) {
       .full-details .beer-description .quote {
         font-size: 1.75em; } }
+    @media screen and (min-width: 1024px) {
+      .full-details .beer-description .quote {
+        font-size: 1.25em; } }
   .full-details .beer-description p {
     margin-bottom: 1em; }
+    @media screen and (min-width: 1024px) {
+      .full-details .beer-description p {
+        font-size: 1em; } }
   .full-details .beer-description .detail-button {
     display: block;
     min-height: 50px;
@@ -790,6 +842,11 @@ a {
     color: #fff;
     padding: 1em;
     margin-bottom: 0.875em; }
+    @media screen and (min-width: 1024px) {
+      .full-details .beer-description .detail-button {
+        display: inline-block;
+        width: 49%;
+        font-size: 0.875em; } }
   .full-details .beer-description .back {
     background: #777; }
   .full-details .beer-description .buy {
