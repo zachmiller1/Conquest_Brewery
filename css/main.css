@@ -547,6 +547,41 @@ a {
       .upcoming .event p:first-child {
         margin-bottom: 0; }
 
+.beer {
+  background: linear-gradient(rgba(66, 66, 66, 0.85), rgba(66, 66, 66, 0.85)), url("../img/tap-handles.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 2em 0; }
+  .beer p {
+    margin-bottom: 1.5em; }
+  .beer .button {
+    margin-bottom: 2em; }
+    @media screen and (min-width: 768px) {
+      .beer .button {
+        margin-bottom: 4em; } }
+    @media screen and (min-width: 1024px) {
+      .beer .button {
+        width: 20%; } }
+  .beer img {
+    width: 60%;
+    margin-bottom: 0.75em; }
+  .beer .beer-shield {
+    margin-bottom: 3em;
+    display: block; }
+    @media screen and (min-width: 1024px) {
+      .beer .beer-shield {
+        margin-bottom: 0; } }
+    @media screen and (min-width: 768px) {
+      .beer .beer-shield {
+        width: 50%;
+        float: left; } }
+    @media screen and (min-width: 1024px) {
+      .beer .beer-shield {
+        width: 25%; } }
+    @media screen and (min-width: 1024px) {
+      .beer .beer-shield p {
+        font-size: 1em; } }
+
 .beer-page {
   background-image: url("../img/beer-hero-image.jpg"); }
   @media screen and (min-width: 768px) {
