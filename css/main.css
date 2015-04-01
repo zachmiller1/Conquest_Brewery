@@ -498,21 +498,26 @@ a {
   padding: 2em 0; }
   .about-visit h2 {
     margin-bottom: 0.5em; }
+  @media screen and (min-width: 1024px) {
+    .about-visit p {
+      margin-bottom: 1em; } }
   .about-visit img {
     max-width: 100%;
     margin-bottom: 1em;
     border: 2px solid #cfb672; }
     @media screen and (min-width: 1024px) {
       .about-visit img {
-        max-width: 375px;
-        max-height: 230px;
-        min-height: 230px; } }
+        max-width: 90%; } }
   .about-visit .column {
     margin-bottom: 4em; }
     @media screen and (min-width: 1024px) {
       .about-visit .column {
         float: left;
-        width: 50%; } }
+        width: 46%;
+        margin-right: 4em;
+        margin-bottom: 0; }
+        .about-visit .column:last-child {
+          margin-right: 0; } }
     .about-visit .column:last-child {
       margin-bottom: 0; }
 
@@ -552,8 +557,22 @@ a {
   background-size: cover;
   height: 100%;
   padding: 2em 0; }
+  .beer h2 {
+    margin-top: 1em;
+    font-size: 2.325em; }
+    @media screen and (min-width: 768px) {
+      .beer h2 {
+        font-size: 3.325em; } }
+    @media screen and (min-width: 1024px) {
+      .beer h2 {
+        margin-top: 0; } }
   .beer p {
     margin-bottom: 1.5em; }
+    @media screen and (min-width: 1024px) {
+      .beer p {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto; } }
   .beer .button {
     margin-bottom: 2em; }
     @media screen and (min-width: 768px) {
@@ -571,19 +590,25 @@ a {
   .beer .beer-shield {
     margin-bottom: 3em;
     display: block; }
+    .beer .beer-shield:first-child {
+      margin-top: 3em; }
     @media screen and (min-width: 1024px) {
       .beer .beer-shield {
         margin-bottom: 0; } }
     @media screen and (min-width: 768px) {
       .beer .beer-shield {
         width: 50%;
-        float: left; } }
+        float: left; }
+        .beer .beer-shield:first-child {
+          margin-top: 0; } }
     @media screen and (min-width: 1024px) {
       .beer .beer-shield {
         width: 25%; } }
-    @media screen and (min-width: 1024px) {
-      .beer .beer-shield p {
-        font-size: 1em; } }
+    .beer .beer-shield p {
+      font-size: 1.5em; }
+      @media screen and (min-width: 1024px) {
+        .beer .beer-shield p {
+          font-size: 1em; } }
 
 .beer-page {
   background-image: url("../img/beer-hero-image.jpg"); }

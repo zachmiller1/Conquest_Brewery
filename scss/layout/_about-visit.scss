@@ -16,15 +16,19 @@
 		margin-bottom: 0.5em;
 	}
 
+	p {
+		@media screen and (min-width: 1024px) {
+    		margin-bottom: 1em;
+    	}
+	}
+
 	img {
 		max-width: 100%;
 		margin-bottom: 1em;
 		border: 2px solid $gold;
 
 		@media screen and (min-width: 1024px) {
-			max-width: 375px;
-			max-height: 230px;
-			min-height: 230px;
+			max-width: 90%;
 		}
 	}
 
@@ -33,7 +37,13 @@
 
 		@media screen and (min-width: 1024px) {
 			float: left;
-			width: 50%;
+			width: 46%;
+			margin-right: 4em;
+			margin-bottom: 0;
+
+			&:last-child {
+				margin-right: 0;
+			}
 		}
 
 		&:last-child {
